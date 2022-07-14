@@ -1,0 +1,17 @@
+{
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.validate": [
+      "typescript"
+    ]
+  }

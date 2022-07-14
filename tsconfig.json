@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2020"
+    ],
+
+    "plugins": [{ "transform": "@zerollup/ts-transform-paths", "exclude": ["*"] }],
+
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "sourceMap": true,
+    "baseUrl": ".",
+
+    "emitDeclarationOnly": false,
+    "declaration": true,
+  }
+}
