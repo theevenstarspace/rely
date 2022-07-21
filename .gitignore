@@ -9,6 +9,9 @@
 /packages/core/dist
 /packages/core/coverage
 
+/packages/react/dist
+/packages/react/coverage
+
 # testing
 /coverage
 

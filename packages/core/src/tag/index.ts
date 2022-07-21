@@ -288,6 +288,17 @@ export class Tag<DataType extends ITagData> implements ITag {
     this.subscriptions.push(sub)
   }
 
+  removeSubscription(sub: Subscription) {
+    this.subscriptions = this.subscriptions.filter(target => {
+      if (target === sub) {
+        sub.unsubscribe()
+        return false
+      }
+
+      return true
+    })
+  }
+
   onUnmount(fn: (event: MountEvent) => void) : Subscription {
     return this.eventObserver.pipe(filter(({type}) => type === EventTypes.unmount)).subscribe(fn)
   }

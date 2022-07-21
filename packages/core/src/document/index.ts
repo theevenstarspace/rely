@@ -11,7 +11,7 @@ export class Document<ChildType extends ITagData['children']> extends Tag<RootDa
   historyManager: IHistory<ChildType>
 
   constructor(name?: string, id?: string) {
-    super({name: name || 'Root', id: id || 'root', attrs: {}})
+    super({name: name || 'Document', id: id || 'root', attrs: {}})
     this.__initialize()
 
     this.historyManager = new History(this)

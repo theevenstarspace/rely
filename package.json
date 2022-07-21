@@ -20,7 +20,10 @@
   },
   "scripts": {
     "test": "jest --projects packages/core",
-    "coverage": "npm run test -- --coverage",
+    "test:core": "jest --projects packages/core",
+    "test:react": "jest --projects packages/react",
+    "coverage:core": "npm run test:core -- --coverage",
+    "coverage:react": "npm run test:react -- --coverage",
     "build": "rollup -c"
   },
   "devDependencies": {
@@ -31,6 +34,8 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@types/jest": "^27.5.1",
     "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
@@ -39,6 +44,8 @@
     "eslint": "^8.16.0",
     "eslint-plugin-jest": "^26.2.2",
     "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.3",
+    "react": "^18.2.0",
     "rollup": "^2.74.1",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.32.1",

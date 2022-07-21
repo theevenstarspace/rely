@@ -1,0 +1,28 @@
+{
+  "name": "@rely/react",
+  "version": "0.0.1",
+  "description": "React bindings for Rely",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "author": "TheEvenstar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theevenstarspace/rely",
+    "directory": "packages/react"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "peerDependencies": {
+    "@rely/core": ">=0.0.1",
+    "rxjs": ">=7.5.5",
+    "react": ">=16.8.0"
+  }
+}
