@@ -20,7 +20,7 @@ describe('useChildren', () => {
     expect(result.current.length).toBe(0)
   })
 
-  test('hook updates value on tag change', () => {
+  test('hook updates value on child remove', () => {
     const mock = createMock()
     const todoList = mock.findById('todoList', true) as TodoList
 
@@ -37,7 +37,7 @@ describe('useChildren', () => {
     expect(result.current.length).toBe(1)
   })
 
-  test('hook updates value on child change', () => {
+  test('hook updates value on child add', () => {
     const mock = createMock()
     const todoList = mock.findById('todoList', true) as TodoList
 
