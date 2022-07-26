@@ -1,5 +1,5 @@
 {
-  "name": "@rely/react",
+  "name": "@evenstar/rely-react",
   "version": "0.0.1",
   "description": "React bindings for Rely",
   "main": "dist/index.cjs.js",
@@ -17,12 +17,15 @@
     "url": "https://github.com/theevenstarspace/rely",
     "directory": "packages/react"
   },
+  "bugs": {
+    "url": "https://github.com/theevenstarspace/rely/issues"
+  },
   "dependencies": {
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
-    "@rely/core": ">=0.0.1",
+    "@evenstar/rely": ">=0.0.1",
     "rxjs": ">=7.5.5",
-    "react": ">=16.8.0"
+    "react": ">=16.3.0"
   }
 }

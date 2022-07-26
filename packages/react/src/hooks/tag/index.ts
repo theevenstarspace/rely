@@ -1,7 +1,7 @@
-import { Tag } from '@rely/core'
+import { Tag } from '@evenstar/rely'
 import { useEffect, useState } from 'react'
 import { distinctUntilChanged } from 'rxjs'
-import type { ITagData } from '@rely/core'
+import type { ITagData } from '@evenstar/rely'
 
 const distinctFn = <Type extends ITagData>(prev: Type, curr: Type) : boolean => {
   return (

@@ -2,4 +2,4 @@ src
 coverage
 
 tsconfig.json
-jest.config.json
+jest.config.ts

@@ -4,7 +4,7 @@ module.exports = {
   testEnvironment: 'jsdom',
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1',
-    '@rely/core': '<rootDir>/../core',
+    '@evenstar/rely': '<rootDir>/../core',
   },
   globals: {
     'ts-jest': {
@@ -12,8 +12,8 @@ module.exports = {
     },
   },
   transformIgnorePatterns: [
-    '../core'
+    '../core',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-  verbose: true
-};
+  verbose: true,
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@rely/core",
+  "name": "@evenstar/rely",
   "version": "0.0.1",
   "description": "Reactive state managment library for JavaScript based on the RxJS",
   "main": "dist/index.cjs.js",
@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/theevenstarspace/rely",
     "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/theevenstarspace/rely/issues"
   },
   "dependencies": {
     "uuid": "^8.3.2"

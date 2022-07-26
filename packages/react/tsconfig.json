@@ -5,7 +5,7 @@
     "declarationDir": "types",
     "paths": {
       "@/*": ["packages/react/src/*"],
-      "@rely/core": ["packages/core"]
+      "@evenstar/rely": ["packages/core"]
     },
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "./jest.setup.ts", "__mocks__/*.ts"],

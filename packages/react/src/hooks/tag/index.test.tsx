@@ -13,7 +13,6 @@ describe('useTag', () => {
     })
 
     // Tag is valid
-    expect(result.current).not.toBeNull()
     expect(result.current.attrs.title).toBe(todo.attrs.title)
     expect(result.current.attrs.completed).toBe(todo.attrs.completed)
 
@@ -39,7 +38,7 @@ describe('useTag', () => {
     // Update tag results in useEffect update
     act(() => {
       todo.setAttr('completed', nextCompleted)
-    });
+    })
 
     expect(result.current.attrs.completed).toBe(nextCompleted)
   })
@@ -58,7 +57,7 @@ describe('useTag', () => {
     // Update tag results in useEffect update
     act(() => {
       todoList.removeChild(todoList.children[0])
-    });
+    })
 
     expect(result.current.children.length).toBe(1)
   })
