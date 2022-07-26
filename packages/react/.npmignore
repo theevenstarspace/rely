@@ -1,5 +1,7 @@
 src
 coverage
+__mocks__
 
 tsconfig.json
-jest.config.json
+jest.config.ts
+jest.setup.ts

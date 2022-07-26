@@ -1,7 +1,7 @@
-import { def, clearRegistry, Document } from '@rely/core'
-import type { Def, NoAttrs } from '@rely/core'
+import { def, clearRegistry, Document } from '@evenstar/rely'
+import type { Def, NoAttrs } from '@evenstar/rely'
 
-// jest.requireActual('@rely/core')
+// jest.requireActual('@evenstar/rely')
 
 const TodoName = 'Todo'
 const TodoListName = 'TodoList'
