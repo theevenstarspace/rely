@@ -8,6 +8,7 @@ import { terser } from 'rollup-plugin-terser'
 
 import pkg from './package.json'
 import pkgCore from './packages/core/package.json'
+import pkgReact from './packages/react/package.json'
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx']
 
@@ -20,6 +21,10 @@ const packages = [
   {
     folder: path.join(__dirname, './packages/core'),
     pkg: pkgCore,
+  },
+  {
+    folder: path.join(__dirname, './packages/react'),
+    pkg: pkgReact,
   },
 ]
 

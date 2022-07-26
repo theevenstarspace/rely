@@ -1,8 +1,6 @@
 import { def, clearRegistry, Document } from '@evenstar/rely'
 import type { Def, NoAttrs } from '@evenstar/rely'
 
-// jest.requireActual('@evenstar/rely')
-
 const TodoName = 'Todo'
 const TodoListName = 'TodoList'
 const RootName = 'Root'

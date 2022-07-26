@@ -1,7 +1,7 @@
 /node_modules
 
-/packages/core/dist
-/packages/core/types
+/packages/*/dist
+/packages/*/types
 
 /.vscode
 /coverage

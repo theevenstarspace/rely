@@ -1,13 +1,12 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": true,
     "declarationDir": "types",
     "paths": {
       "@/*": ["packages/react/src/*"],
       "@evenstar/rely": ["packages/core"]
     },
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "./jest.setup.ts", "__mocks__/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["dist", "node_modules"]
 }

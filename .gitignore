@@ -6,13 +6,9 @@
 .pnp.js
 
 # packages
-/packages/core/dist
-/packages/core/coverage
-/packages/core/types
-
-/packages/react/dist
-/packages/react/coverage
-/packages/react/types
+/packages/*/dist
+/packages/*/coverage
+/packages/*/types
 
 # testing
 /coverage
