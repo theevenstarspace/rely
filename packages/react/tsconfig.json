@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declarationDir": "types",
+    "rootDir": "src",
     "paths": {
       "@/*": ["packages/react/src/*"],
       "@evenstar/rely": ["packages/core"]
